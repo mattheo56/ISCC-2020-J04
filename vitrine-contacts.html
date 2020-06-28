@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-    <title>Accueil ISEG Summer Code Camp</title>
-    </head>
-
+<html>
+<head>
+<title>Vitrine</title>
+<link rel="stylesheet" href="vitrine3.css">
+</head>
 <body>
-    <header>
-        <nav>
-
-                <a href="vitrine-accueil.html">Accueil</a>
-                <a href="vitrine-programme.html">Programme</a>
-                <a href="vitrine-contacts.html">Contact</a>
-        </nav>
-        <h1>Summer Code Camp</h1>
-
-    </header>
-
-
+<header>
+ <nav>
+ <ul>
+    <li><a href="vitrine-accueil.html">Accueil</a></li>
+ <li><a href="vitrine-programme.html">Programme</a></li>
+ <li><a href="vitrine-contacts.html">contacts</a></li>
+ </ul>
+ </nav>
+ <h1>Summer Code Camp</h1>
+ </header>
+<h2>Contacts</h2>
+<main>
+<form action="/my handling-form-page" method="post">
+<div>
+<label for="name">Nom : </label>
+<input type="text" id="name" name="user_name">
+</div>
+<div>
+<label for="mail">e-mail : </label>
+<input type="email" id="mail" name="user_mail">
+</div>
+<div>
+<label for="msg">Message : </label>
+<textarea id="msg" name="user_message"></textarea>
+</div>
+<div class="button">
+<button type="submit">Envoyer le message</button>
+</div>
+</form>
+</main>
 </body>
 </html>
